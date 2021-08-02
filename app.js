@@ -135,6 +135,6 @@ app.get("/:pathName", function(req, res){
 //     res.redirect("/work");
 // });
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT, function(){
     console.log("server started on port 3000");
 });
